@@ -1,3 +1,7 @@
+.header{
+    outline: 1px solid gray;;
+    padding: 2em;
+}
 ul {
     list-style: none;
     flex:1;
@@ -6,21 +10,30 @@ ul {
 }
 li{
     display:inline;
+    margin: 10px;
+}
+li a{
     padding:5px ;
     outline:1px solid#000 ;
-margin: 10px;
+    background-color: white;
+
 }
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .card-container{
     display: grid;
+    gap: 0.5em;
     grid-template-columns: auto auto auto;
-    column-gap: 20px;
 }
 .card img{
     width: 100%;
+    /* max-width: 1080px; */
 }
 .card{
-    
+    border: gray 2px solid;
+    border-radius: 1em;
+}
+.card p, .card h3{
+    margin: 0.5em;
 }
